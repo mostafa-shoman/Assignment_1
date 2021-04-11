@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Assignment_1
+        </title>
+        <style>
+            body{background-color:lightseagreen;}
+            .center {margin-left: auto;
+                    margin-right: auto;}
+            .c1{background-color: chartreuse;}
+            .c2{ background-color:indianred }
+            .html{background-color:mediumseagreen;}
+            .css{ background-color:violet;}
+            .CSC205{background-color:yellow;}
+            .empty{background-color:cyan;}
+            .Ec{background-color:tomato;}
+            table{
+                border-collapse: collapse;
+                border: 5px solid black;}
+            table th ,td{
+                border: 1px solid black;}
+        </style>
+    </head>
+    <body>
+        <h1>ECE table: </h1>
+        <p><strong>A paragraph is a series of related sentences developing a central idea, called the topic. Try to think about paragraphs in terms of thematic unity: a paragraph is a sentence or a group of sentences that supports one central, unified idea. Paragraphs add one idea at a time to your broader argument <br>A paragraph is a series of related sentences developing a central idea, called the topic. Try to think about paragraphs in terms of thematic unity: a paragraph is a sentence or a group of sentences that supports one central, unified idea. Paragraphs add one idea at a time to your broader argument.A paragraph is a series of related sentences developing a central idea, called the topic. Try to think about paragraphs in terms of thematic unity: a paragraph is a sentence or a group of sentences that supports one central, unified idea. Paragraphs add one idea at a time to your broader argument.</strong> </p>
+        <table class="center" width="80%">
+                <tr>
+                    <th class="empty"> </th>
+                    <th class="c1"> Monday</th>
+                    <th class="c2"> Tuesday</th>
+                    <th class="c1"> Wendesday</th>
+                    <th class="c2"> Thursday</th>
+                    <th class="c1"> Friday</th>
+                </tr>
+                <tr>
+                    <td class="c1"> 1:00PM </td>
+                    <td class="html" rowspan="2"><ins>HTML</ins> </td>
+                    <td class="empty">      </td>
+                    <td class="html" rowspan="2"> HTML </td>
+                    <td style="background-color:rgb(30,120,50)" rowspan="8">HTML Hour<br> by Apps</td>
+                    <td class="html" rowspan="2">HTML</td>
+                </tr>
+                <tr>
+                    <td class="c2">3:00PM</td>
+                    <td class="Ec" rowspan="2">DeptMeeting</td>
+                </tr>
+                <tr>
+                    <td class="c1"> 2:00PM</td>
+                    <td class="css" rowspan="3"> CSS</td>
+                    <td class="css" rowspan="3"> CSS</td>
+                    <td class="css" rowspan="3">CSS</td>
+                </tr>
+                <tr>
+                    <td class="c2">3:00PM</td>
+                    <td class="empty">      </td>
+                </tr>
+                <tr>
+                    <td class="c1">5:00PM</td>
+                    <td class="Ec" rowspan="3"> EC Meeting</td>
+                </tr>
+                <tr>
+                    <td class="c2">3:30PM</td>
+                    <td class="CSC205" rowspan="3"> CSC205</td>
+                    <td class="CSC205" rowspan="3"> CSC205</td>
+                    <td class="CSC205" rowspan="3"> CSC205</td>
+                </tr>
+                <tr>
+                    <td class="c1">3:30PM</td>
+                </tr>
+                <tr>
+                    <td class="c2">4:00PM</td>
+                    <td class="empty">      </td>
+                    
+                </tr>
+            </table>
+            <p><a href="http://table.com/" target="_blank">Click for a description</a> </p>
+        
+    </body>
+</html>
